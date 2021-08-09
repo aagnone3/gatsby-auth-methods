@@ -5,6 +5,8 @@
  */
 
 module.exports = {
-  /* Your site config here */
-  plugins: [],
+  siteMetadata: {
+    title: `Gatsby Demo Simple Authentication`,
+  },
+  plugins: [`gatsby-plugin-react-helmet`],
 }
